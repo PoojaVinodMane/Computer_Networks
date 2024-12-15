@@ -13,8 +13,8 @@ This project implements a response-time-based load balancing strategy using an O
 - Provides overall metrics for performance evaluation.
 
 ## Performance Evaluation
-# Observation:
+### Observation:
 - When using the Least Response Time strategy, latency and throughput are higher compared to Random and Round Robin strategies.
 - Server 2, with intentional random delays, handles fewer requests, leading servers 1 and 3 to manage most of the load.
-# Conclusion:
+### Conclusion:
 - Least Response Time strategy ensures better performance in terms of overall response time and queue handling compared to static methods like Round Robin or Random.
